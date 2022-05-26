@@ -1,0 +1,43 @@
+table {
+  width: 100%;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 3.5em;
+  padding: 20px;
+  display: inline;
+}
+
+.container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+  border-style: solid;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-size: 1.5em;
+}
+
+a:hover {
+  background-color: #ff2600;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 780px) {
+  h2 {
+    line-height: 50px;
+    font-size: 2.5em;
+  }
+
+  .container {
+    height: 150px;
+  }
+  a {
+    margin-right: 5px;
+  }
+}
